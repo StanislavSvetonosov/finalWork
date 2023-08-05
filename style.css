@@ -1,0 +1,1330 @@
+@font-face {
+  font-family: Gilroy-Semibold;
+  src: url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@400;500;700&display=swap");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+header {
+  width: 1600px;
+  height: 815px;
+  background-image: url(./image/background-top.png);
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation_block {
+  width: 1181px;
+  height: 40px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoHeader img {
+  width: 185px;
+  height: 40px;
+}
+
+.navigation_block_center {
+  width: 352px;
+  height: 19px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 82px;
+}
+
+.navigation_link {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #8794ba;
+}
+
+.navigation_link_right {
+  padding-left: 314px;
+  padding-right: 40px;
+}
+
+.content_btn_header {
+  background: #465b95;
+  border-radius: 50px;
+  padding: 10.5px 53px 10.5px 53px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #8794ba;
+  text-align: left;
+  border: 1px solid #465b95;
+  cursor: pointer;
+}
+
+.btns_button {
+  display: none;
+}
+
+.content_block {
+  width: 550px;
+  height: 315px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 242px;
+  padding-left: 210px;
+  gap: 15px;
+}
+
+.content_mainTitle {
+  font-family: "Roboto";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.content_discription {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8794ba;
+}
+
+.content_btns_button1 {
+  background: #ef2a82;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  border-radius: 50px;
+  padding: 15.5px 80px 15.5px 80px;
+  color: #ffffff;
+  border: 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+}
+
+.content_wrapper {
+  display: flex;
+}
+
+.card_block {
+  width: 804px;
+  height: 554px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+  background: #ffffff;
+  border-radius: 25px;
+  margin-top: 64px;
+  margin-left: 15px;
+  box-shadow: 15px 25px 56px 6px #0000000f;
+}
+
+.card_block_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_block_img:hover {
+  scale: 1.5;
+}
+
+.card_block_img img {
+  width: 240px;
+  height: 164px;
+}
+
+.mainFeatures {
+  width: 1180px;
+  text-align: center;
+  align-content: center;
+  margin-left: 210px;
+}
+
+.card_list_logo {
+  width: 1180px;
+  height: 164px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.content_card {
+  color: #172755;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.content_text {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #8794ba;
+}
+
+.card_logo {
+  width: 380px;
+  height: 164px;
+  align-content: center;
+  background-color: "chart lines";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.log {
+  margin-top: 81px;
+}
+.logo_h {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #172755;
+  margin-bottom: 15px;
+  margin-top: 26px;
+}
+
+.logo_p {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #8794ba;
+  width: 380px;
+  height: 44px;
+}
+
+.content__analytics {
+  display: flex;
+  justify-content: center;
+  width: 1600px;
+  flex-wrap: wrap;
+  margin-top: 130px;
+}
+
+.content__analytics_1 {
+  width: 1180px;
+  height: 440px;
+  display: flex;
+}
+
+.content__analytics_2 {
+  width: 1180px;
+  height: 440px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.content__analytics_3 {
+  width: 1180px;
+  height: 440px;
+  display: flex;
+}
+
+.img1 {
+  width: 600px;
+  height: 410px;
+
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.img2 {
+  width: 600px;
+  height: 410px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.img3 {
+  width: 600px;
+  height: 410px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 114px;
+}
+
+.content_main2 {
+  width: 480px;
+  height: 232px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 100px;
+}
+
+.content_main3 {
+  width: 480px;
+  height: 232px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-right: 100px;
+}
+
+.content_main1 {
+  width: 480px;
+  height: 232px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-right: 100px;
+}
+
+.content__title {
+  width: 480px;
+  height: 94px;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #172755;
+  padding-top: 69px;
+}
+
+.text__analytics {
+  width: 480px;
+  height: 108px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.fon_card {
+  background: url(./image/background-bottom.png);
+  width: 1600px;
+  height: 1069px;
+}
+
+.card_list {
+  width: 1180px;
+  height: 656px;
+  margin-left: 210px;
+  text-align: center;
+  align-content: center;
+}
+
+.content_card_list {
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+  padding-top: 272px;
+}
+
+.content_text_list {
+  height: 53px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #8794ba;
+  margin-bottom: 80px;
+}
+
+.card_list_price {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.card_price {
+  width: 340px;
+  height: 440px;
+  border: 1px solid #2a407c;
+  background: #0f1f4b;
+  border-radius: 30px;
+  position: relative;
+}
+
+.card_price:hover {
+  background-color: #ffffff;
+}
+.card_price:hover .content_card_list1 {
+  color: #172755;
+}
+.card_price:hover .price1 {
+  color: #172755;
+}
+.card_price:hover .price2 {
+  color: #172755;
+}
+.card_price:hover .btn_price {
+  background-color: #ef2a82;
+}
+
+.content_card_list1 {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.content_card_list2 {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #8794ba;
+  margin-bottom: 66px;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.price1 {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.price2 {
+  font-family: "Roboto";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.per_month {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #8794ba;
+  margin-bottom: 40px;
+}
+
+.btn_price {
+  width: 200px;
+  height: Fixed (50px);
+  top: 320px;
+  left: 68.5px;
+  padding: 10px 80px 10px 80px;
+  border-radius: 68px;
+  border: 1px solid #2a407c;
+  gap: 10px;
+  background-color: #0f1f4b;
+}
+
+.sign_up {
+  width: 1600px;
+  height: 740px;
+  background: #f8f9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUpForm {
+  width: 482px;
+  height: 522px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signUpFormH1 {
+  width: 431px;
+  height: 80px;
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #160637;
+}
+
+.signUpFormLine {
+  padding-top: 75px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.signUpFormP {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.line {
+  border: 0.5px solid #160637;
+  width: 140px;
+}
+
+.logos_block {
+  width: 302px;
+  height: 156px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signUpFormActive {
+  width: 480px;
+  height: 522px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUpFormActiveImg {
+  padding-top: 47px;
+}
+
+.signUpFormActive1 {
+  position: absolute;
+  width: 428px;
+  height: 475px;
+  background: #ffffff;
+  box-shadow: 4px 4px 12px 0px #8989a21f;
+}
+
+.signUpFormActive1H1 {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+.btn_signUp {
+  padding-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content_btn_signUp {
+  background: #722ed1;
+  width: 344px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signUpFormInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signUpFormInput_1 {
+  padding-bottom: 16px;
+}
+
+.email_input {
+  width: 348px;
+  height: 51px;
+  padding-left: 16px;
+  color: #8989a2;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Password_input {
+  width: 348px;
+  height: 51px;
+  padding-left: 16px;
+  color: #8989a2;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Re-type_Password_input {
+  width: 348px;
+  height: 51px;
+  padding-left: 16px;
+  color: #8989a2;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.signUpFormActive1H2 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 16px;
+}
+
+.signUpFormActive1H2 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 16px;
+}
+
+.signUpFormActiveStar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 16px;
+}
+
+.line_sign_up {
+  display: flex;
+  justify-content: center;
+}
+
+.line_sign_up1 {
+  width: 336px;
+  border: 0.5px solid #160637;
+}
+
+.signUpFormActive1H3 {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8989a2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 16px;
+}
+
+.signUpFormActive1H3_color {
+  color: Purple;
+}
+
+footer {
+  width: 1600px;
+  height: 154px;
+  background: #1f2f5c;
+}
+
+.navigation_block_footer {
+  width: 1600px;
+  height: 154px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation_block_center_footer {
+  width: 293px;
+  height: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 305px;
+}
+
+.navigation_block_right_footer {
+  width: 134px;
+  height: 30px;
+  padding-left: 308.5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navigation_block_right_footer path {
+  fill: #8794ba;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    width: 375px;
+  }
+
+  header {
+    width: 375px;
+    height: 815px;
+    background-image: url(./image/background-top.png);
+  }
+
+  .navigation_block {
+    width: 375px;
+    height: 70px;
+    padding-top: 0px;
+  }
+
+  .logoHeader img {
+    width: 138px;
+    height: 30px;
+  }
+
+  .navigation_block_center {
+    visibility: hidden;
+    display: none;
+  }
+
+  .navigation_link {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #8794ba;
+  }
+
+  .navigation_link_right {
+    width: 48px;
+    height: 19px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-left: 107px;
+  }
+
+  .btn_header {
+    visibility: hidden;
+    display: none;
+  }
+
+  .btns_button img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .btns_button {
+    display: inline;
+    border: 0;
+    padding-left: 18px;
+    background: #172755;
+  }
+
+  .content_wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .content_block {
+    width: 335px;
+    height: 272px;
+    padding-top: 26px;
+    padding-left: 0px;
+  }
+
+  .content_mainTitle {
+    font-size: 31px;
+    line-height: 37px;
+  }
+
+  .content_btns_button1 {
+    width: 335px;
+    height: 50px;
+    border-radius: 68px;
+    padding: 10px 80px 10px 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card_block {
+    width: 335px;
+    height: 231px;
+    gap: 4px;
+    background: #ffffff;
+    box-shadow: 15px 25px 56px 6px #0000000f;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .card_block_img img {
+    width: 100px;
+    height: 68px;
+  }
+
+  .mainFeatures {
+    width: 335px;
+    margin-left: 0px;
+    padding-left: 20px;
+  }
+
+  .card_list_logo {
+    width: 335px;
+    height: 529px;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  .content_card {
+    color: #172755;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .content_text {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8794ba;
+  }
+
+  .card_logo {
+    width: 335px;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .log {
+    margin-top: 0px;
+  }
+
+  .card_logo_box {
+    width: 246px;
+    height: 88px;
+  }
+
+  .logo_h {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #172755;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .logo_p {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8794ba;
+    width: 246px;
+    height: 88px;
+  }
+
+  .content__analytics {
+    width: 335px;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+
+  .content__analytics_1 {
+    width: 335px;
+    height: 449px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+
+  .content__analytics_2 {
+    width: 335px;
+    height: 449px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+
+  .content__analytics_3 {
+    width: 335px;
+    height: 449px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img1 {
+    width: 335px;
+    height: 229px;
+
+    margin-bottom: 0px;
+
+    padding: 0;
+  }
+
+  .img2 {
+    width: 335px;
+    height: 229px;
+
+    margin-bottom: 0px;
+  }
+
+  .img3 {
+    width: 335px;
+    height: 229px;
+
+    margin-bottom: 0px;
+  }
+
+  .content_main2 {
+    width: 335px;
+    height: 190px;
+
+    gap: 0px;
+    padding-left: 0px;
+  }
+
+  .content_main3 {
+    width: 335px;
+    height: 190px;
+
+    gap: 0px;
+    padding-right: 0px;
+  }
+  .content_main1 {
+    width: 335px;
+    height: 190px;
+
+    gap: 0px;
+    padding-right: 0px;
+  }
+
+  .content__title {
+    width: 335px;
+    height: 70px;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #172755;
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+
+  .text__analytics {
+    width: 335px;
+    height: 70px;
+
+    font-size: 14px;
+    padding-bottom: 30px;
+    line-height: 19px;
+  }
+
+  .fon_card {
+    background: url(./image/background-bottom.png);
+    width: 375px;
+    height: 784px;
+    padding-top: 73px;
+  }
+
+  .card_list {
+    width: 375px;
+    height: 857px;
+    margin-left: 0px;
+  }
+
+  .content_card_list {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    display: flex;
+    margin-bottom: 30px;
+    padding-top: 0px;
+  }
+
+  .content_text_list {
+    width: 335px;
+    height: 53px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 0px;
+  }
+
+  .card_list_price {
+    width: 375px;
+    height: 428px;
+    gap: 20px;
+  }
+
+  .card_list_text {
+    padding-top: 132px;
+    padding-left: 20px;
+  }
+
+  .card_price {
+    width: 280px;
+    height: 358px;
+    border: 1px solid #2a407c;
+    background: #0f1f4b;
+    border-radius: 30px;
+    position: relative;
+  }
+
+  .card_price:hover {
+    background-color: #ffffff;
+  }
+  .card_price:hover .content_card_list1 {
+    color: #172755;
+  }
+  .card_price:hover .price1 {
+    color: #172755;
+  }
+  .card_price:hover .price2 {
+    color: #172755;
+  }
+  .card_price:hover .btn_price {
+    background-color: #ef2a82;
+  }
+
+  .content_card_list1 {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .content_card_list2 {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8794ba;
+    margin-bottom: 66px;
+  }
+
+  .price {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .price1 {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .price2 {
+    font-family: "Roboto";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .per_month {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8794ba;
+    margin-bottom: 40px;
+  }
+
+  .sign_up {
+    width: 375px;
+    height: 544px;
+  }
+
+  .signUpForm {
+    visibility: hidden;
+    display: none;
+  }
+
+  .signUpFormActive {
+    width: 375px;
+    height: 475px;
+  }
+
+  .signUpFormActiveImg {
+    padding-top: 0px;
+  }
+
+  .signUpFormActive1 {
+    width: 375px;
+    height: 475px;
+  }
+
+  .signUpFormActive1H1 {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+
+  .btn_signUp {
+    padding-bottom: 16px;
+  }
+
+  .content_btn_signUp {
+    background: #722ed1;
+    width: 335px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .signUpFormInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .signUpFormInput_1 {
+    padding-bottom: 16px;
+  }
+
+  .email_input {
+    width: 335px;
+    height: 51px;
+    padding-left: 20px;
+    color: #8989a2;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .Password_input {
+    width: 335px;
+    height: 51px;
+    padding-left: 20px;
+    color: #8989a2;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .Re-type_Password_input {
+    width: 335px;
+    height: 51px;
+    padding-left: 20px;
+    color: #8989a2;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .signUpFormActiveStar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 16px;
+  }
+
+  .line_sign_up {
+    display: flex;
+    justify-content: center;
+  }
+
+  .line_sign_up1 {
+    width: 336px;
+    border: 0.5px solid #160637;
+  }
+
+  .signUpFormActive1H3 {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8989a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+  }
+
+  .signUpFormActive1H3_color {
+    color: Purple;
+  }
+
+  footer {
+    width: 375px;
+    height: 97px;
+  }
+
+  .navigation_block_footer {
+    width: 375px;
+    height: 97px;
+  }
+
+  .navigation_block_center_footer {
+    visibility: hidden;
+    display: none;
+  }
+
+  .navigation_block_right_footer {
+    width: 136px;
+    height: 24px;
+    padding-left: 76px;
+  }
+}
